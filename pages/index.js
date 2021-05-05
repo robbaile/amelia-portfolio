@@ -12,16 +12,23 @@ export default function Home() {
       </Head>
 
       <main>
+        <nav>
+          <ul className={styles.nav}>
+            <li className={styles["nav-item"]}><a href="#About">About me</a></li>
+            <li className={styles["nav-item"]}><a href="#Experience">Experience</a></li>
+            <li className={styles["nav-item"]}><a href="#Portfolio">Portfolio</a></li>
+          </ul>
+        </nav>
         <div className={styles['container_beige']}>
           <img className={styles.initials} alt="initials" src="initials.svg"/>
         </div>
-        <div className={styles['container_green-dark']}>
+        <div id="About" className={styles['container_green-dark']}>
             <img className={styles.initials} alt="initials" src="initials.svg"/>
         </div>
-        <div className={styles['container_mustard']}>
+        <div id="Experience" className={styles['container_mustard']}>
           <img className={styles.initials} alt="initials" src="initials.svg"/>
         </div>
-        <div className={styles['container_green-light']}>
+        <div id="Portfolio" className={styles['container_green-light']}>
           <img className={styles.initials} alt="initials" src="initials.svg"/>
         </div>
         <div className={styles['container_beige']}>

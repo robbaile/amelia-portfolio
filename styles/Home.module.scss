@@ -54,3 +54,22 @@ $colour-green-light: #49523B;
   height: 25vh;
   width: 25vw;
 }
+
+.nav {
+  display: flex;
+
+  &:last-child {
+    margin-right: 2rem;
+  }
+
+  &-item {
+    list-style: none;
+    margin: 1rem;
+    color: $colour-orange;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
