@@ -1,0 +1,56 @@
+$colour-beige: #D2BFAC;
+$colour-green-dark: #26291B;
+$colour-mustard: #987633;
+$colour-orange: #D34B1C;
+$colour-green-light: #49523B;
+
+.container {
+  &_beige {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: $colour-beige;
+  }
+
+  &_green-dark {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: $colour-green-dark;
+  }
+
+  &_green-light {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: $colour-green-light;
+  }
+
+  &_mustard {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: $colour-mustard;
+  }
+}
+
+.initials {
+  height: 25vh;
+  width: 25vw;
+}
