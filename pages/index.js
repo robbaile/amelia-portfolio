@@ -1,8 +1,15 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
+import {useRouter} from "next/router";
+import {SocialIcon} from "react-social-icons";
 
 export default function Home() {
+  const router = useRouter();
+
+  const navigateTo = (location) => {
+    router.push(`/${location}`,`/${location}`,{ scroll: true });
+  }
+
   return (
     <div>
       <Head>
@@ -30,8 +37,12 @@ export default function Home() {
             <div className={styles['flex-left']}>
               <img className={styles.initials} alt="initials" src="amelia-name.png"/>
               <div>
-                <button className={styles.button}>ABOUT ME</button>
-                <button className={styles.button}>PORTFOLIO</button>
+                <button onClick={() => navigateTo("#About")} className={styles.button}>ABOUT ME</button>
+                <button onClick={() => navigateTo("#Portfolio")} className={styles.button}>PORTFOLIO</button>
+              </div>
+              <div className={styles.socials}>
+                <SocialIcon style={{margin: '5px'}} url="https://www.linkedin.com/in/amelia-fraser-0b53b0198/"/>
+                <SocialIcon url="https://www.instagram.com/ameliafraser8/"/>
               </div>
             </div>
           </div>
@@ -46,7 +57,7 @@ export default function Home() {
         </div>
         <div id="Portfolio" className={styles['container_mustard']}>
           <h2>PORTFOLIO</h2>
-          <p className={styles.p}>Throughout my time at university, I have been able to progress and develop the and skills acquired from my course. My experience on the Adobe platforms has considerable improved, which is showcased through the visuals in my work. Th examples of work below are in response to various briefs throughout the three-years on my course. </p>
+          <p className={styles.p}>Throughout my time at university, I have been able to progress and develop the skills acquired from my course. My experience with Adobe's suite of products has considerably improved. This  is showcased throughout the visuals in my work. The examples of work below are in response to various briefs throughout the three-years on my course. </p>
           <div className={styles['portfolio-container']}>
             <div className={styles['portfolio-item-1']}>
               <h3>STAGE ONE REPORT</h3>
@@ -80,7 +91,7 @@ export default function Home() {
             </div>
             <div className={styles['portfolio-item-2']}>
               <a href="/gym-shark-report">
-                <h3>GYM SHARK REPORT</h3>
+                <h3>GYMSHARK REPORT</h3>
                 <img className={styles['portfolio-image']} src="/gym-shark-report.png" alt="gym shark report" />
               </a>
             </div>

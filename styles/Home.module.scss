@@ -309,3 +309,9 @@ $colour-beige-dark: #D1B9A1;
   justify-content: center;
   padding-top: 25px;
 }
+
+.socials {
+  & * > {
+    margin: 5px !important;
+  }
+}
