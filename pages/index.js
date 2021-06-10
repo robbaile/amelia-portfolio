@@ -55,6 +55,43 @@ export default function Home() {
                 <p>I am a confident and dedicated graduate from Nottingham Trent University where I studied Fashion Marketing and Branding. University and the completion of my degree has shaped who I am today and changed the way I view the world of marketing. I have found the course interesting and inspiring, and I can’t wait to apply my strategic and creative thinking skills into industry. I can confidently and comfortably work independently or as part of a team with the goal to constantly achieve and grow my abilities.</p>
             </div>
         </div>
+        <div id="Experience" className={styles['beige_page']}>
+          <div>
+            <h2>EXPERIENCE</h2>
+            <div className={styles['experience-container']}>
+              <div className={styles.experience}>
+                <div className={styles['image-container']}>
+                  <img className={styles['experience-logo']} src={'/knead-pubs-logo-dark.png'} alt={"knead pubs"} />
+                </div>
+                <div>
+                  <p>OCTOBER 2018 - CURRENT</p>
+                  <p><strong>Bar Waitress | PATEN & CO | Stamford, Lincolnshire</strong></p>
+                  <p>I work at Patens during my holidays when home from university. My responsibilities whilst working at Paten & Co are to make sure customers are always happy, the bar is always tidy and to make delicious cocktails. I can make 15+ cocktails to a high standard, quickly, as the bar is always busy on a Friday and Saturday night. With new rules and regulations as a result of COVID-19 it is important that I make sure customers feel comfortable in the environment and ensure them that the pub in clean. </p>
+                </div>
+              </div>
+              <div className={styles.experience}>
+                <div className={styles['image-container']}>
+                  <img className={styles['experience-logo-2']} src={'/justin-capp-logo.png'} alt={"justin capp"} />
+                </div>
+                <div>
+                  <p>JULY 2020 - SEPTEMBER 2020</p>
+                  <p><strong>Work Experience with a Leather Maker | JUSTIN CAPP | Thurning, Northamptonshire</strong></p>
+                  <p>During this time, I worked as an intern for Justin Capp with his collection to create samples for Athens fashion week 2021. I created a number of different bags for his collection and one of the bags has recently appeared in Vogue magazine.</p>
+                </div>
+              </div>
+              <div className={styles.experience}>
+                <div className={styles['image-container']}>
+                  <img className={styles['experience-logo-2']} src={'/anna-coture.png'} alt={"anna coture"} />
+                </div>
+                <div>
+                  <p>JUNE 2021 - CURRENT</p>
+                  <p><strong>Sales Assistant, Model | ANNA COUTURE | Stamford, Lincolnshire</strong></p>
+                  <p>This job is paid work experience in a boutique where I model prom/wedding dresses and tend to the store during the day. I also assist with certain altering and hemming jobs when the boutique is busy. I intend to work here over the summer to help out as much as I can.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div id="Portfolio" className={styles['container_mustard']}>
           <h2>PORTFOLIO</h2>
           <p className={styles.p}>Throughout my time at university, I have been able to progress and develop the skills acquired from my course. My experience with Adobe's suite of products has considerably improved. This  is showcased throughout the visuals in my work. The examples of work below are in response to various briefs throughout the three-years on my course. </p>
@@ -121,47 +158,15 @@ export default function Home() {
               <p><strong>COLLABORATIVE ETHOS</strong></p>
             </div>
             <div className={styles.polaroid}>
-              <img className={styles['polaroid-photo']} src="/insta/margot.png"/>
+              <img className={styles['polaroid-photo']} src="/insta/you-can-do-it.png"/>
               <p><strong>CAN DO ATTITUDE</strong></p>
             </div>
           </div>
         </div>
-        <div id="Experience" className={styles['beige_page']}>
-          <div>
-            <h2>EXPERIENCE</h2>
-            <div className={styles['experience-container']}>
-              <div className={styles.experience}>
-                <div className={styles['image-container']}>
-                  <img className={styles['experience-logo']} src={'/knead-pubs-logo-dark.png'} alt={"knead pubs"} />
-                </div>
-                <div>
-                  <p>OCTOBER 2018 - CURRENT</p>
-                  <p><strong>Bar Waitress | PATEN & CO | Stamford, Lincolnshire</strong></p>
-                  <p>I work at Patens during my holidays when home from university. My responsibilities whilst working at Paten & Co are to make sure customers are always happy, the bar is always tidy and to make delicious cocktails. I can make 15+ cocktails to a high standard, quickly, as the bar is always busy on a Friday and Saturday night. With new rules and regulations as a result of COVID-19 it is important that I make sure customers feel comfortable in the environment and ensure them that the pub in clean. </p>
-                </div>
-              </div>
-              <div className={styles.experience}>
-                <div className={styles['image-container']}>
-                  <img className={styles['experience-logo-2']} src={'/justin-capp-logo.png'} alt={"justin capp"} />
-                </div>
-                <div>
-                  <p>JULY 2020 - SEPTEMBER 2020</p>
-                  <p><strong>Work Experience with a Leather Maker | JUSTIN CAPP | Thurning, Northamptonshire</strong></p>
-                  <p>During this time, I worked as an intern for Justin Capp with his collection to create samples for Athens fashion week 2021. I created a number of different bags for his collection and one of the bags has recently appeared in Vogue magazine.</p>
-                </div>
-              </div>
-              <div className={styles.experience}>
-                <div className={styles['image-container']}>
-                  <img className={styles['experience-logo-2']} src={'/anna-coture.png'} alt={"anna coture"} />
-                </div>
-                <div>
-                  <p>JUNE 2021 - CURRENT</p>
-                  <p><strong>Sales Assistant, Model | ANNA COUTURE | Stamford, Lincolnshire</strong></p>
-                  <p>This job is paid work experience in a boutique where I model prom/wedding dresses and tend to the store during the day. I also assist with certain altering and hemming jobs when the boutique is busy. I intend to work here over the summer to help out as much as I can.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className={styles['container_green-dark']}>
+          <h2>CONTACT ME</h2>
+          <p>Phone number:  <strong><a href="tel:07503 622636">07503 622636</a></strong></p>
+          <p>Email:  <strong><a href="mailto:amelia.fraser8@outlook.com">amelia.fraser8@outlook.com</a></strong></p>
         </div>
       </main>
     </div>

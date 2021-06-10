@@ -168,6 +168,10 @@ $colour-beige-dark: #D1B9A1;
 
 .about-me-image {
   height: 40vh;
+  padding-top: 20px;
+  @media only screen and (min-width: 600px) {
+    padding-top: 0;
+  }
 }
 
 .flex-left {
@@ -259,7 +263,7 @@ $colour-beige-dark: #D1B9A1;
 .beige_page {
   min-height: 100vh;
   width: 100vw;
-  background-color: $colour-beige;
+  background: url("../public/background.svg");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -314,4 +318,16 @@ $colour-beige-dark: #D1B9A1;
   & * > {
     margin: 5px !important;
   }
+}
+
+.container_green-dark {
+  text-align: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: $colour-green-dark;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
