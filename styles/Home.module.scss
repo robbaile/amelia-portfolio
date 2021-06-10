@@ -3,13 +3,14 @@ $colour-green-dark: #26291B;
 $colour-mustard: #987633;
 $colour-orange: #D34B1C;
 $colour-green-light: #49523B;
+$colour-beige-dark: #D1B9A1;
 
 .container {
   &_beige {
     text-align: center;
     min-height: 100vh;
     width: 100vw;
-    background-color: $colour-beige;
+    background: url("../public/background.svg");
     @media only screen and (min-width: 600px) {
       display: flex;
       align-items: center;
