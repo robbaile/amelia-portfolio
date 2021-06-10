@@ -61,7 +61,7 @@ export default function Home() {
               </a>
             </div>
             <div className={styles['portfolio-item-3']}>
-              <a href="/digital-slavary-report">
+              <a href="/digital-slavery-report">
                 <h3>FUTURE THINKING REPORT</h3>
                 <img className={styles['portfolio-image']} src="/digital-slavery.png" alt="digital slavery report" />
               </a>
