@@ -163,7 +163,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles['container_green-dark']}>
+        <div id="Contact" className={styles['container_green-dark']}>
           <h2>CONTACT ME</h2>
           <p>Phone number:  <strong><a href="tel:07503 622636">07503 622636</a></strong></p>
           <p>Email:  <strong><a href="mailto:amelia.fraser8@outlook.com">amelia.fraser8@outlook.com</a></strong></p>
